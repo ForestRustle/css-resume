@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+  background-color: rgb(223, 230, 215);
+  color: rgb(31, 30, 30);
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-family: "Caveat", sans-serif;
+
+  /* font: normal 1.1rem 'Caveat', sans-serif ; */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(126, 122, 122);
+}
+
+a:hover {
+  color: rgb(78, 133, 235);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(109, 19, 151);
+}
+
+a:visited {
+  color: aliceblue;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgb(0, 0, 0, 025);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h1 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: rgb(126, 122, 122);
+  margin: 0;
+  font-style: italic;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.info-links {
+  margin-bottom: 20px;
+}
+
+.bg-blue {
+  background-color: rgb(39, 209, 209);
+}
+
+.bg-light-blue {
+  background-color: rgb(119, 238, 198);
+}
+
+.bg-light-green {
+  background-color: rgb(82, 241, 180);
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 15px;
+  list-style: none;
+}
+
+.list li {
+  color: rgb(148, 146, 146);
+  margin-bottom: 3px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 5px;
+  color: rgb(148, 146, 146);
+}
+
+.courses {
+  list-style: none;
+}
+
+.courses li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #b8b5b5;
+}
+
+/* .contacts{
+  background-color: rgb(64, 186, 202);
+  border-radius: 20px;
+} */
+
+.contacts h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #7a7878;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #6d6a6a;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0px;
+}
+
+.btn {
+  color: #f1ebeb;
+  padding: 5px;
+  background: black;
+  font-family: "Caveat", sans-serif;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Position */
+/*
+.position {
+  position: relative;
+  border: 2px solid red;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+ 
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+}*/
+
+@media (max-width:700px){
+  .info{
+    display: block;
+    text-align: center;
+  }
+}
